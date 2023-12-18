@@ -5,25 +5,24 @@ justification for your answer. Assume `arr` is an array of length _n_.
 
 ## `arr.push()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: _The number of operations to add a new element to the end of `arr` will always be same assigning the `arr.length` as the new element `index` and increasing the `arr.length + number of elements to add` doesn't matter the size of the array, so it's time complexity is constant_.
 
 [push on MDN][push]
 
-
 ## `arr.pop()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: _It will be same as push method, the number of operations will always be same and it will only remove the last element which will always be at the position `arr.length - 1` thus not affecting the other elements in the array, therefore we can say it will be constant time complexity_
 
 [pop on MDN][pop]
 
 ## `arr.shift()`
 
-Time complexity: O(?)
-Space complexity: O(?)
+Time complexity: O(n)
+Space complexity: O(n)
 Justification: _Fill this in_
 
 [shift on MDN][shift]
@@ -100,15 +99,15 @@ Justification: _Fill this in_
 
 [spread on MDN][spread]
 
-[push]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
-[pop]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
-[shift]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
-[unshift]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
-[splice]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
-[slice]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
-[indexOf]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
-[map]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-[filter]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-[reduce]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
-[reverse]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
-[spread]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+[push]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+[pop]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+[shift]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+[unshift]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+[splice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+[slice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+[indexOf]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
+[map]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+[filter]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+[reduce]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+[reverse]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+[spread]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
