@@ -23,23 +23,23 @@ Justification: _It will be same as push method, the number of operations will al
 
 Time complexity: O(n)
 Space complexity: O(n)
-Justification: _Fill this in_
+Justification: _It will have a linear time complexity and space complexity as the number of operations is greater than the two methods above making it linear, besides adding an new element with index 0 it has the calculate every other element in the `arr` array according to the number of element added a the start of the array_
 
 [shift on MDN][shift]
 
 ## `arr.unshift()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: _It will be very similar to the `shift` method therefore the time and space complexity will be linear as well_
 
 [unshift on MDN][unshift]
 
 ## `arr.splice()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: _I think it will be constant time and space complexity as it will basically always perform the same number of operations without needing to iterate through every element in the `arr` array_
 
 [splice on MDN][splice]
 
