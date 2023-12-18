@@ -37,65 +37,66 @@ Justification: _It will be very similar to the `shift` method therefore the time
 
 ## `arr.splice()`
 
-Time complexity: O(1)
-Space complexity: O(1)
-Justification: _I think it will be constant time and space complexity as it will basically always perform the same number of operations without needing to iterate through every element in the `arr` array_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: _It will be linear time and space complexity in the worst case scenario as the number od indices that need to changed depends on the position of the element of the array we pretend to remove_
 
 [splice on MDN][splice]
 
 ## `arr.slice()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: _I think it will be constant time and space complexity as it will basically always perform the same number of operations without needing to iterate through every element in the `arr` array_
+
 
 [slice on MDN][slice]
 
 ## `arr.indexOf()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: _In the worst case scenario it will have to go through the entire array making it's time and space complexity linear_
 
 [indexOf on MDN][indexOf]
 
 ## `arr.map()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: _This method is linear it it's time and space complexity as it will go through every element in the array, modifying each one according to the callback function and returning a new array_
 
 [map on MDN][map]
 
 ## `arr.filter()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: _Linear time complexity and space because in the worst case scenario `big-O` it will iterate through every element in the `arr` array to find the one according to he callback function specifications_
 
 [filter on MDN][filter]
 
 ## `arr.reduce()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: _Because it will iterate through every element in the `arr` array and the number of operations involved it will have a linear time and space complexity_
 
 [reduce on MDN][reduce]
 
 ## `arr.reverse()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: _Because it goes through every element in the `arr` array changing the index for each element in t_
 
 [reverse on MDN][reverse]
 
 ## `[...arr]`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: _I consider the spread method time and space complexity constant as similarly to the `slice` method it will create a shallow copy of the original `arr` array_
 
 [spread on MDN][spread]
 
